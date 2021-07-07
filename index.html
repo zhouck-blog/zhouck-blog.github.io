@@ -1,30 +1,42 @@
 <html>
 <head>
-  <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="css/lightgallery/lightgallery.css" />
   <!-- lightgallery plugins -->
-  <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
-  <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
+  <link type="text/css" rel="stylesheet" href="css/lightgallery/lg-zoom.css" />
+  <link type="text/css" rel="stylesheet" href="css/lightgallery/lg-thumbnail.css" />
+  <link type="text/css" rel="stylesheet" href="css/public-gallery.css" />
+
   <script src="js/lightgallery.umd.js"></script>
   <!-- lightgallery plugins -->
   <script src="js/plugins/thumbnail/lg-thumbnail.umd.js"></script>
   <script src="js/plugins/zoom/lg-zoom.umd.js"></script>  
+  
 </head>
 <body>
- <div id="lightgallery">
-    <a href="img/img1.jpg" data-lg-size="1600-2400">
-        <img alt=".." src="img/thumb/img1.jpg" />
-    </a>
-    <a href="img/img2.jpg" data-lg-size="1024-800">
-        <img alt=".." src="img/thumb/img2.jpg" />
-    </a>
+<div class="header d-flex flex-column align-items-center">
+  <h1 class="display-6 mt-3 mb-0">Картинки</h1>
+  <p class="lead mt-2 mb-4">
+    Майбутній будинок
+  </p>
+  
+</div>
+<div class="gallery-container d-flex align-items-center justify-content-center" id="gallery-container">
+
+  <a data-lg-size="2500-2500" class="gallery-item" data-sub-html="<h4>Лоббі" src="img/img1.jpg">
+    <img class="img-fluid" src="img/thumb/img1.jpg" />
+  </a>
+  <a data-lg-size="2500-2500" class="gallery-item" data-sub-html="<h4>Перед будинком" src="img/img2.jpg">
+    <img class="img-fluid" src="img/thumb/img2.jpg" />
+  </a>
 </div>
 <script type="text/javascript">
-    lightGallery(document.getElementById('lightgallery'), {
-        plugins: [lgZoom, lgThumbnail],
-        thumbnail: true,
-        speed: 500,
-        showZoomInOutIcons: true
-    });
+lightGallery(document.getElementById("gallery-container"), {
+  speed: 500,
+  plugins: [lgZoom],
+  showZoomInOutIcons: true,
+  actualSize: false
+});
 </script>
 </body>
 </html>
