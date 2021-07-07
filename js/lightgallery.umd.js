@@ -651,7 +651,7 @@
         mode: 'lg-slide',
         easing: 'ease',
         speed: 400,
-        licenseKey: '0000-0000-000-0000',
+        licenseKey: '42145EA7-A9D64059-95F09E38-6EEAB24B',
         height: '100%',
         width: '100%',
         addClass: '',
