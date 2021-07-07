@@ -1,1 +1,28 @@
-Hello World
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+  <!-- lightgallery plugins -->
+  <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
+  <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
+  <script src="js/lightgallery.umd.js"></script>
+  <!-- lightgallery plugins -->
+  <script src="js/plugins/lg-thumbnail.umd.js"></script>
+  <script src="js/plugins/lg-zoom.umd.js"></script>  
+</head>
+<body>
+ <div id="lightgallery">
+    <a href="img/img1.jpg" data-lg-size="1600-2400">
+        <img alt=".." src="img/thumb/img1.jpg" />
+    </a>
+    <a href="img/img2.jpg" data-lg-size="1024-800">
+        <img alt=".." src="img/thumb/img2.jpg" />
+    </a>
+</div>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500
+    });
+</script>
+</body>
+</html>
