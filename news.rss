@@ -3,7 +3,14 @@
 <title>Recent Updates</title>
 <link>https://example.com</link>
 <description>Auto-generated list of recent file updates</description>
-<lastBuildDate>Tue, 05 Aug 2025 15:16:36 +0300</lastBuildDate>
+<lastBuildDate>Tue, 05 Aug 2025 15:17:34 +0300</lastBuildDate>
+<item>
+  <title>index.html</title>
+  <link>https://public.zhuk.xyz//index.html</link>
+  <guid>index.html.202508051517</guid>
+  <pubDate>Tue, 05 Aug 2025 15:17:34 +0300</pubDate>
+</item>
+
 <item>
   <title>index.html</title>
   <link>https://public.zhuk.xyz//index.html</link>
@@ -16,12 +23,5 @@
   <link>https://public.zhuk.xyz//index.html</link>
   <guid>index.html.202508051515</guid>
   <pubDate>Tue, 05 Aug 2025 15:15:38 +0300</pubDate>
-</item>
-
-<item>
-  <title>main.css</title>
-  <link>https://public.zhuk.xyz//css/main.css</link>
-  <guid>main.css.202508051515</guid>
-  <pubDate>Tue, 05 Aug 2025 15:15:37 +0300</pubDate>
 </item>
 </channel></rss>
