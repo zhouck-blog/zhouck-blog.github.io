@@ -3,7 +3,14 @@
 <title>Recent Updates</title>
 <link>https://example.com</link>
 <description>Auto-generated list of recent file updates</description>
-<lastBuildDate>Tue, 05 Aug 2025 13:32:37 +0300</lastBuildDate>
+<lastBuildDate>Tue, 05 Aug 2025 13:33:58 +0300</lastBuildDate>
+<item>
+  <title>dl/pdf/Kobzar2.pdf</title>
+  <link>https://example.com/dl/pdf/Kobzar2.pdf</link>
+  <guid>https://example.com/dl/pdf/Kobzar2.pdf</guid>
+  <pubDate>Tue, 05 Aug 2025 13:33:58 +0300</pubDate>
+</item>
+
 <item>
   <title>dl/pdf/test.pdf</title>
   <link>https://example.com/dl/pdf/test.pdf</link>
