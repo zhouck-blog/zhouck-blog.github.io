@@ -3,7 +3,14 @@
 <title>Recent Updates</title>
 <link>https://example.com</link>
 <description>Auto-generated list of recent file updates</description>
-<lastBuildDate>Tue, 05 Aug 2025 15:05:52 +0300</lastBuildDate>
+<lastBuildDate>Tue, 05 Aug 2025 15:05:54 +0300</lastBuildDate>
+<item>
+  <title>workSmartNotHard.jpg</title>
+  <link>https://public.zhuk.xyz//dl/pdf/workSmartNotHard.jpg</link>
+  <guid>workSmartNotHard.jpg.202508051505</guid>
+  <pubDate>Tue, 05 Aug 2025 15:05:54 +0300</pubDate>
+</item>
+
 <item>
   <title>iq.png</title>
   <link>https://public.zhuk.xyz//dl/pdf/iq.png</link>
@@ -16,12 +23,5 @@
   <link>https://public.zhuk.xyz//dl/pdf/NameChoice.zip</link>
   <guid>NameChoice.zip.202508051505</guid>
   <pubDate>Tue, 05 Aug 2025 15:05:50 +0300</pubDate>
-</item>
-
-<item>
-  <title>workSmartNotHard.jpg</title>
-  <link>https://public.zhuk.xyz//dl/pdf/workSmartNotHard.jpg</link>
-  <guid>workSmartNotHard.jpg.202508051414</guid>
-  <pubDate>Tue, 05 Aug 2025 14:14:15 +0300</pubDate>
 </item>
 </channel></rss>
