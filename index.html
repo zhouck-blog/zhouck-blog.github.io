@@ -1,1 +1,36 @@
-Hello world
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мій сервер</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/buttons.css">
+
+<script>
+  document.addEventListener('click', function (event) {
+        // If the clicked element doesn't have the right selector, bail
+        if (!event.target.matches('.aButton')) return;
+        // Don't follow the link
+        event.preventDefault();
+        fetch(event.target.href);
+
+}, false);
+
+  document.addEventListener('click', function (event) {
+        // If the clicked element doesn't have the right selector, bail
+        if (!event.target.matches('.apostButton')) return;
+
+        // Don't follow the link
+        event.preventDefault();
+
+        fetch(event.target.href, { method: 'POST', mode: 'no-cors'});
+}, false);
+</script>
+</head>
+<body>
+<header>Links to in-house applications</header>
+  <a href="minidlna/">MiniDLNA</a><br/><br/>
+  <a href="monit/">Monit</a><br/><br/>
+</body>
